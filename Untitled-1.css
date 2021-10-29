@@ -12,6 +12,8 @@
 
 ul li {
     list-style: none;
+    background-color: rgb(238, 17, 17);
+    
 }
 
 ul li a {
@@ -22,11 +24,18 @@ ul li a {
     display: inline-block;
     padding: 0 10px;
     margin-right: 10px;
+   
 }
 
 header {
     position: fixed;
+    overflow: hidden;
 }
 section p{
     margin-top: 80px;
+    padding: 80px;
+}
+
+.video{
+margin: 10px;
 }
